@@ -36,9 +36,11 @@ padding: 15px;
     line-height: 2;
 }
 .container {
-    background-image: url(../images/banner.jpg);
-   
+    background-image: url(../images/banner.jpg) ;
+   background-size: cover;
+   background-position: center;
     padding: 35px;
+
 }
 .container a {
     margin: auto;
@@ -84,6 +86,7 @@ padding: 15px;
 
 ul {
     list-style-type: none;
+    color: #c8e7f0;
     
 }
 li {
@@ -98,5 +101,20 @@ li:last-child {
 footer {
     background-color: #25a2c3;
     color: white;
+
+}
+.pixa a {
+    color: #c8e7f0;
 }
 
+footer {
+    padding: 15px;
+}
+.cit {
+    font-size: 1.4em;
+}
+.pixa {
+    padding-top: 20px;
+    font-size: 0.7em;
+    color: #c8e7f0;
+}
