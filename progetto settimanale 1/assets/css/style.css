@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    
+    ;
+}
+
+body {
+    text-align: center;
+    color: #393d41;
+    font-family:"Open Sans", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.65;
+}
+header {
+    background-color: black;
+}
+.logo {
+    padding: 25px;
+}
+h1,h3 {
+    color: #25a2c3 ;
+    font-family:"Montserrat", sans-serif ;
+    font-weight: bold;
+    line-height: 1.5;
+
+}
+
+h1 {
+font-size: 2.3em;
+padding: 15px;
+}
+.container p{
+    line-height: 2;
+}
+.container {
+    background-image: url(../images/banner.jpg);
+   
+    padding: 35px;
+}
+.container a {
+    margin: auto;
+    background-color: #f04c2f ;
+}
+.btn {
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    color: white;
+
+}
+.garanzia {
+    background-color: #f04c2f ;
+    color: white;
+    padding: 20px;
+}
+.tondo {
+    margin-bottom: 5px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.cont {
+    
+    border: #dee1e366;
+    box-shadow: 0.1px 0.2px;
+    margin-top: 25px;
+    padding-bottom: 30px;
+    
+
+}
+.cont img {
+    
+    display: inline-block;
+    width: 100%;
+
+
+}
+
+ul {
+    list-style-type: none;
+    
+}
+li {
+    text-decoration: underline;
+}
+li:last-child {
+    text-decoration: none;
+}
+

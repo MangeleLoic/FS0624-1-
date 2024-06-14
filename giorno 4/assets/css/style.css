@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+
+    box-sizing: border-box;
+    line-height: 1.2rem;
+    font-size: 1.1rem;
+    font-family:  "Poppins", sans-serif;;
+}
+
+body{
+    background-image: url('../img/sfondo.png');
+    background-attachment: fixed;
+}
+header{
+    background-color: #4397B8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 20px;
+    text-align: center;
+}
+header p{
+    color: #E4F1F8;
+    padding-top: 15px;
+}
+nav{
+    width: 100%;
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+nav div{
+    margin-bottom: 30px;
+}
+
+nav div a:link{
+    text-decoration: none;
+    color: #E4F1F8;
+
+}
+nav li::before{
+    content: (\27F9);
+    color:#E4F1F8 ;
+
+}
+ul li::after{
+    content: (\27F9);
+
+}
+nav ul li{
+    list-style-type: none;
+    
+}
+main{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 20px;
+    box-shadow: 4px 4px 8px 2px #666;
+    background-color: aliceblue;
+}
+.Titolo{
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 15px;
+    padding-right: 10px;
+    width: 100%;
+}
+.author{
+    margin: 20px;
+    color: #666;
+}
+
+.part,.select{
+    color:#9E4882 ;
+}
+kbd{
+    
+}
+
+ul,ol{
+    margin: 25px;
+}
+.app{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+}
+section{
+    margin: 15px;
+}
