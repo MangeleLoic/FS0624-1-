@@ -89,7 +89,14 @@ ul {
 li {
     text-decoration: underline;
 }
+li:first-child{
+    color: white;
+}
 li:last-child {
     text-decoration: none;
+}
+footer {
+    background-color: #25a2c3;
+    color: white;
 }
 
